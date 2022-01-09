@@ -13,7 +13,10 @@ export default function Place(props) {
       <div className="place-details">
         <div className="location">
           <div>
-            <ion-icon name="location-outline"></ion-icon> {props.place.location.toUpperCase()}
+            <ion-icon name="location-outline"></ion-icon>
+            <span className="country-name"> 
+              {props.place.location.toUpperCase()}
+            </span>
           </div>
           <a 
             href={props.place.googleMapsUrl} 

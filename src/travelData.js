@@ -28,7 +28,7 @@ const data = [
     googleMapsUrl: "https://goo.gl/maps/SEU3D7Bg7F2qrXtM8",
     startDate: "17 Mar, 2022",
     endDate: "10 Apr, 2022",
-    description: "Its peaceful serene beauty and clean ari, surrounded bu unlevelled mountains, lush green fields and historical buildings make Paro one of the most popular destination in Bhutan.",
+    description: "Its peaceful serene beauty and clean air, surrounded by unlevelled mountains, lush green fields, and historical buildings make Paro one of the most popular destination in Bhutan.",
     imageUrl: "https://images.unsplash.com/photo-1596516112176-7a9603d246e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     imgAlt: "A Village in Paro"
   },

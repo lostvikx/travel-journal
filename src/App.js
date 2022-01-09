@@ -5,14 +5,23 @@ import Place from "./components/Place";
 
 // console.log(data);
 
-const travelData = data.map(place => {
+// console.log(nLines)
+
+const travelData = data.map((place, i) => {
+
+  let nLines = (data.length - 1) - i;
+  // console.log(nLines)
+
   return (
+    <div key={place.id}>
     <Place 
-      key={place.id}
       place={place}
     />
+    {nLines ? <hr /> : <></>}
+    </div>
   );
 });
+
 
 export default function App() {
   return (
